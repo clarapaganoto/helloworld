@@ -22,7 +22,7 @@
 		value.bind( function( to ) {
 			if ( 'blank' == to ) {
 				if ( 'remove-header' == wp.customize.instance( 'header_image' ).get() ) {
-					$( '.home-link' ).css( 'min-height', '0' );
+					$( '.home-link' ).css( 'min-height', '6' );
 				}
 				$( '.site-title, .site-description' ).css( {
 					'clip': 'rect(1px, 1px, 1px, 1px)',
